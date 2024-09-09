@@ -39,8 +39,8 @@ public class EnemySpawner : MonoBehaviour
             {
                 // Random spawn position: X and Z within certain bounds, Y > 0
                 Vector3 spawnPosition = new Vector3(0,0,0);
-                Vector3 spawnPosition2 = new Vector3(29, 0, 29);
-                Vector3 spawnPosition3 = new Vector3(0, 0, 29);//Random.Range(0f, 10f), Random.Range(0f, 10f), Random.Range(0f, 10f) will use this if we want to make random later
+                Vector3 spawnPosition2 = new Vector3(58, 0, 58);
+                Vector3 spawnPosition3 = new Vector3(58, 0, 0);//Random.Range(0f, 10f), Random.Range(0f, 10f), Random.Range(0f, 10f) will use this if we want to make random later
                 GameObject newEnemy = Instantiate(enemy, spawnPosition, Quaternion.identity);
                 GameObject newEnemy2 = Instantiate(enemy, spawnPosition2, Quaternion.identity);
                 GameObject newEnemy3 = Instantiate(enemy, spawnPosition3, Quaternion.identity);

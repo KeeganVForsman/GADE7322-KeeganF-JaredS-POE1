@@ -15,6 +15,8 @@ public class WaveFunctionCollapse : MonoBehaviour
     private int iteration;
     private Cell[,] cellGrid; // Use a 2D array for fast access
 
+    public float cellSize = 2.0f; // tetsing different cell sizes for game feel
+
     private void Awake()
     {
         cellGrid = new Cell[dimensions, dimensions];
@@ -35,7 +37,8 @@ public class WaveFunctionCollapse : MonoBehaviour
                     continue;
                 }
 
-                Vector3 position = new Vector3(x, 0, y);
+                // Multiply the position by the cellSize to make cells larger
+                Vector3 position = new Vector3(x * cellSize, 0, y * cellSize);
                 Cell newCell = Instantiate(cellObj, position, Quaternion.identity);
                 newCell.CreateCell(false, tileObjects);
                 cellGrid[x, y] = newCell;

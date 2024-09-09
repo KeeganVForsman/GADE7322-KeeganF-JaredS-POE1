@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 3300000}
   - component: {fileID: 2300000}
   - component: {fileID: 785277000558253381}
-  - component: {fileID: 4114906612711291888}
-  - component: {fileID: -4531885136297022356}
+  - component: {fileID: 6764154833209396372}
+  - component: {fileID: -8704899672896889364}
   m_Layer: 0
   m_Name: Building Sky_big_color01
   m_TagString: Untagged
@@ -100,21 +100,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   upNeighbours:
   - {fileID: -9198259702327029444, guid: 2860f09c057deb84d856242051547dfd, type: 3}
-  - {fileID: 785277000558253381}
   - {fileID: 5020534014703380121, guid: cc5494a7e3687bf458cec4581b2f660d, type: 3}
   - {fileID: -9214929063271107302, guid: 5e2ab9fad981e1f458563e6fc7b7c4cf, type: 3}
   - {fileID: -3164873985480972856, guid: feeb1f48a2abf654cbe5f7173d8d19f8, type: 3}
   - {fileID: 1757872009856557404, guid: 75ecc23778457524e867e1e5a19f772f, type: 3}
   rightNeighbours:
-  - {fileID: -9198259702327029444, guid: 2860f09c057deb84d856242051547dfd, type: 3}
   - {fileID: 785277000558253381}
-  - {fileID: 5020534014703380121, guid: cc5494a7e3687bf458cec4581b2f660d, type: 3}
   - {fileID: -9214929063271107302, guid: 5e2ab9fad981e1f458563e6fc7b7c4cf, type: 3}
   - {fileID: -3164873985480972856, guid: feeb1f48a2abf654cbe5f7173d8d19f8, type: 3}
   - {fileID: 1757872009856557404, guid: 75ecc23778457524e867e1e5a19f772f, type: 3}
   downNeighbours:
-  - {fileID: -9198259702327029444, guid: 2860f09c057deb84d856242051547dfd, type: 3}
-  - {fileID: 785277000558253381}
   - {fileID: 5020534014703380121, guid: cc5494a7e3687bf458cec4581b2f660d, type: 3}
   - {fileID: -9214929063271107302, guid: 5e2ab9fad981e1f458563e6fc7b7c4cf, type: 3}
   - {fileID: -3164873985480972856, guid: feeb1f48a2abf654cbe5f7173d8d19f8, type: 3}
@@ -128,9 +123,8 @@ MonoBehaviour:
   - {fileID: -3164873985480972856, guid: feeb1f48a2abf654cbe5f7173d8d19f8, type: 3}
   - {fileID: -5179297181682090997, guid: 9a3bf73095000914889a2ed979ba3f46, type: 3}
   - {fileID: 1757872009856557404, guid: 75ecc23778457524e867e1e5a19f772f, type: 3}
-  - {fileID: -9198259702327029444, guid: 2860f09c057deb84d856242051547dfd, type: 3}
   mapTileType: 1
---- !u!65 &4114906612711291888
+--- !u!65 &6764154833209396372
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -149,9 +143,9 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.0244805, y: 1.8601756, z: 0.9222336}
-  m_Center: {x: -0.00000017881393, y: 0.93008757, z: 0.009335935}
---- !u!208 &-4531885136297022356
+  m_Size: {x: 2.185558, y: 3.9683745, z: 1.9674315}
+  m_Center: {x: -0.00000035762787, y: 1.9841868, z: 0.019916654}
+--- !u!208 &-8704899672896889364
 NavMeshObstacle:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -161,9 +155,9 @@ NavMeshObstacle:
   m_Enabled: 1
   serializedVersion: 3
   m_Shape: 1
-  m_Extents: {x: 0.512, y: 0.93000007, z: 0.46100003}
+  m_Extents: {x: 1.093, y: 1.9840001, z: 0.984}
   m_MoveThreshold: 0.1
   m_Carve: 1
   m_CarveOnlyStationary: 1
-  m_Center: {x: 0, y: 0.93000007, z: 0.009000001}
+  m_Center: {x: 0, y: 1.9840001, z: 0.020000001}
   m_TimeToStationary: 0.5

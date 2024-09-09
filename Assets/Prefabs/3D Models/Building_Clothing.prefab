@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 3300000}
   - component: {fileID: 2300000}
   - component: {fileID: -9214929063271107302}
-  - component: {fileID: -4419146155892062787}
-  - component: {fileID: -5504593176317905254}
+  - component: {fileID: 5358321639512101695}
+  - component: {fileID: -1035957981256684800}
   m_Layer: 0
   m_Name: Building_Clothing
   m_TagString: Untagged
@@ -99,24 +99,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   upNeighbours:
-  - {fileID: 785277000558253381, guid: d93f1286aa2d2d84abe51c331a96d561, type: 3}
+  - {fileID: 1757872009856557404, guid: 75ecc23778457524e867e1e5a19f772f, type: 3}
   - {fileID: 5020534014703380121, guid: cc5494a7e3687bf458cec4581b2f660d, type: 3}
   - {fileID: -9214929063271107302}
   - {fileID: -3164873985480972856, guid: feeb1f48a2abf654cbe5f7173d8d19f8, type: 3}
-  - {fileID: -5179297181682090997, guid: 9a3bf73095000914889a2ed979ba3f46, type: 3}
-  - {fileID: 1757872009856557404, guid: 75ecc23778457524e867e1e5a19f772f, type: 3}
   rightNeighbours:
   - {fileID: 785277000558253381, guid: d93f1286aa2d2d84abe51c331a96d561, type: 3}
   - {fileID: 5020534014703380121, guid: cc5494a7e3687bf458cec4581b2f660d, type: 3}
-  - {fileID: -9214929063271107302}
   - {fileID: -3164873985480972856, guid: feeb1f48a2abf654cbe5f7173d8d19f8, type: 3}
-  - {fileID: -5179297181682090997, guid: 9a3bf73095000914889a2ed979ba3f46, type: 3}
   - {fileID: 1757872009856557404, guid: 75ecc23778457524e867e1e5a19f772f, type: 3}
   - {fileID: -9198259702327029444, guid: 2860f09c057deb84d856242051547dfd, type: 3}
   downNeighbours:
   - {fileID: 785277000558253381, guid: d93f1286aa2d2d84abe51c331a96d561, type: 3}
   - {fileID: 5020534014703380121, guid: cc5494a7e3687bf458cec4581b2f660d, type: 3}
-  - {fileID: -9214929063271107302}
   - {fileID: -3164873985480972856, guid: feeb1f48a2abf654cbe5f7173d8d19f8, type: 3}
   - {fileID: -5179297181682090997, guid: 9a3bf73095000914889a2ed979ba3f46, type: 3}
   - {fileID: 1757872009856557404, guid: 75ecc23778457524e867e1e5a19f772f, type: 3}
@@ -126,11 +121,10 @@ MonoBehaviour:
   - {fileID: 5020534014703380121, guid: cc5494a7e3687bf458cec4581b2f660d, type: 3}
   - {fileID: -9214929063271107302}
   - {fileID: -3164873985480972856, guid: feeb1f48a2abf654cbe5f7173d8d19f8, type: 3}
-  - {fileID: -5179297181682090997, guid: 9a3bf73095000914889a2ed979ba3f46, type: 3}
   - {fileID: 1757872009856557404, guid: 75ecc23778457524e867e1e5a19f772f, type: 3}
   - {fileID: -9198259702327029444, guid: 2860f09c057deb84d856242051547dfd, type: 3}
   mapTileType: 1
---- !u!65 &-4419146155892062787
+--- !u!65 &5358321639512101695
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -149,9 +143,9 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.848833, y: 0.8123921, z: 0.85090756}
-  m_Center: {x: 0.0057952404, y: 0.40622652, z: 0.002415672}
---- !u!208 &-5504593176317905254
+  m_Size: {x: 2.0614514, y: 1.9729524, z: 2.06649}
+  m_Center: {x: 0.014074147, y: 0.9865501, z: 0.0058666468}
+--- !u!208 &-1035957981256684800
 NavMeshObstacle:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -161,9 +155,9 @@ NavMeshObstacle:
   m_Enabled: 1
   serializedVersion: 3
   m_Shape: 1
-  m_Extents: {x: 0.42400002, y: 0.40600002, z: 0.425}
+  m_Extents: {x: 1.031, y: 0.98600006, z: 1.033}
   m_MoveThreshold: 0.1
   m_Carve: 1
   m_CarveOnlyStationary: 1
-  m_Center: {x: 0.006, y: 0.40600002, z: 0.002}
+  m_Center: {x: 0.014, y: 0.98700005, z: 0.006}
   m_TimeToStationary: 0.5

@@ -11,10 +11,9 @@ GameObject:
   - component: {fileID: 400000}
   - component: {fileID: 3300000}
   - component: {fileID: 2300000}
-  - component: {fileID: 9500000}
   - component: {fileID: -5179297181682090997}
-  - component: {fileID: 6795764694956955484}
-  - component: {fileID: 7468972344672640563}
+  - component: {fileID: -2538129728907300606}
+  - component: {fileID: -4277270049053326695}
   m_Layer: 0
   m_Name: Building_Music Store
   m_TagString: Untagged
@@ -87,27 +86,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &9500000
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 100000}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: e6c7be1b4691ca441abe64159118907b, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &-5179297181682090997
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -121,11 +99,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   upNeighbours:
-  - {fileID: 785277000558253381, guid: d93f1286aa2d2d84abe51c331a96d561, type: 3}
   - {fileID: 5020534014703380121, guid: cc5494a7e3687bf458cec4581b2f660d, type: 3}
   - {fileID: -9214929063271107302, guid: 5e2ab9fad981e1f458563e6fc7b7c4cf, type: 3}
   - {fileID: -3164873985480972856, guid: feeb1f48a2abf654cbe5f7173d8d19f8, type: 3}
-  - {fileID: -5179297181682090997}
   - {fileID: 1757872009856557404, guid: 75ecc23778457524e867e1e5a19f772f, type: 3}
   - {fileID: -9198259702327029444, guid: 2860f09c057deb84d856242051547dfd, type: 3}
   rightNeighbours:
@@ -133,17 +109,15 @@ MonoBehaviour:
   - {fileID: 5020534014703380121, guid: cc5494a7e3687bf458cec4581b2f660d, type: 3}
   - {fileID: -9214929063271107302, guid: 5e2ab9fad981e1f458563e6fc7b7c4cf, type: 3}
   - {fileID: -3164873985480972856, guid: feeb1f48a2abf654cbe5f7173d8d19f8, type: 3}
-  - {fileID: -5179297181682090997}
   - {fileID: 1757872009856557404, guid: 75ecc23778457524e867e1e5a19f772f, type: 3}
   - {fileID: -9198259702327029444, guid: 2860f09c057deb84d856242051547dfd, type: 3}
   downNeighbours:
+  - {fileID: -9198259702327029444, guid: 2860f09c057deb84d856242051547dfd, type: 3}
   - {fileID: 785277000558253381, guid: d93f1286aa2d2d84abe51c331a96d561, type: 3}
   - {fileID: 5020534014703380121, guid: cc5494a7e3687bf458cec4581b2f660d, type: 3}
   - {fileID: -9214929063271107302, guid: 5e2ab9fad981e1f458563e6fc7b7c4cf, type: 3}
   - {fileID: -3164873985480972856, guid: feeb1f48a2abf654cbe5f7173d8d19f8, type: 3}
-  - {fileID: -5179297181682090997}
   - {fileID: 1757872009856557404, guid: 75ecc23778457524e867e1e5a19f772f, type: 3}
-  - {fileID: -9198259702327029444, guid: 2860f09c057deb84d856242051547dfd, type: 3}
   leftNeighbours:
   - {fileID: 785277000558253381, guid: d93f1286aa2d2d84abe51c331a96d561, type: 3}
   - {fileID: 5020534014703380121, guid: cc5494a7e3687bf458cec4581b2f660d, type: 3}
@@ -151,9 +125,8 @@ MonoBehaviour:
   - {fileID: -3164873985480972856, guid: feeb1f48a2abf654cbe5f7173d8d19f8, type: 3}
   - {fileID: -5179297181682090997}
   - {fileID: 1757872009856557404, guid: 75ecc23778457524e867e1e5a19f772f, type: 3}
-  - {fileID: -9198259702327029444, guid: 2860f09c057deb84d856242051547dfd, type: 3}
   mapTileType: 1
---- !u!65 &6795764694956955484
+--- !u!65 &-2538129728907300606
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -172,9 +145,9 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.0096908, y: 0.87821114, z: 0.93178344}
-  m_Center: {x: 0.0031359494, y: 0.43903613, z: -0.017595053}
---- !u!208 &7468972344672640563
+  m_Size: {x: 2.1315694, y: 1.8540012, z: 1.9670982}
+  m_Center: {x: 0.0066203475, y: 0.9268541, z: -0.037145108}
+--- !u!208 &-4277270049053326695
 NavMeshObstacle:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -184,9 +157,9 @@ NavMeshObstacle:
   m_Enabled: 1
   serializedVersion: 3
   m_Shape: 1
-  m_Extents: {x: 0.505, y: 0.439, z: 0.46600002}
+  m_Extents: {x: 1.0660001, y: 0.92700005, z: 0.984}
   m_MoveThreshold: 0.1
   m_Carve: 1
   m_CarveOnlyStationary: 1
-  m_Center: {x: 0.003, y: 0.439, z: -0.018000001}
+  m_Center: {x: 0.007, y: 0.92700005, z: -0.037}
   m_TimeToStationary: 0.5
