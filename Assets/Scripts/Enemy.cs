@@ -2,30 +2,58 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class Enemy : MonoBehaviour
 {
     public float speed;
+    public int towerHP = 100;
 
-    // Start is called before the first frame update
-    void Start()
+    public TextMeshProUGUI UITowHP;
+
+    private void Start()
+    {
+        UpdateHPUI();
+    }
+
+    private void Update()
     {
         
     }
 
-    // Update is called once per frame
-    void Update()
+    void towerTakeDamage()
     {
-        
-    }
+        towerHP--;
+        UpdateHPUI();
 
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.CompareTag("Enemy") || collision.CompareTag("Laser"))
+        if (towerHP >= 0)
         {
-            Destroy(gameObject);
-            //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            SceneManager.LoadScene("Death");
         }
+        else
+        {
+            new WaitForSeconds(3f);
+            towerHP--;
+        }
+    }
+
+    private void OnTriggerEnter(Collider collision)
+    {
+        
+        if (collision.gameObject.CompareTag("Tower"))
+        {
+            Debug.Log("damage taken");
+
+            towerTakeDamage();
+        }
+    }
+
+    void UpdateHPUI()
+    {
+       
+        
+           //UITowHP.text = "Tower HP: " + towerHP.ToString(); 
+        
     }
 
 }
